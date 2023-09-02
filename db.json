@@ -1,0 +1,10 @@
+{
+  "users":
+  [
+  {"code":"20202","name":"shankar","salary":20000,"role":"admin"},
+  {"code":"20203","name":"gowtham","salary":21000,"role":"user1"},
+  {"code":"20204","name":"madan","salary":22000,"role":"user3"},
+  {"code":"20205","name":"sudheer","salary":23000,"role":"user4"},
+  {"code":"20206","name":"satwik","salary":24000,"role":"user2"}
+  ]
+}

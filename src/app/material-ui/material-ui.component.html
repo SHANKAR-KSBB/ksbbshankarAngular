@@ -1,0 +1,42 @@
+<h2 style="text-align:center;background-color:aqua;color:rebeccapurple;">Form</h2>
+<form [formGroup]="materialform" (ngSubmit)="savematerial()">
+<mat-card>
+    <mat-card-content>
+        <mat-form-field class="mat-50">
+            <mat-label>Name</mat-label>
+            <input formControlName="name" matInput>
+        </mat-form-field>
+        <br>
+        <br>
+        <mat-form-field>
+            <mat-label>Email</mat-label>
+            <input formControlName="email" matInput>
+        </mat-form-field>
+        <br>
+        <br>
+        <mat-form-field>
+            <mat-label>Phone</mat-label>
+            <input formControlName="phone" matInput>
+        </mat-form-field>
+        <br>
+        <br>
+        <mat-form-field>
+            <mat-label>Country</mat-label>
+            <input formControlName="country" matInput>
+        </mat-form-field>
+        <br>
+        <br>
+        <mat-form-field>
+            <mat-label>Address</mat-label>
+            <input formControlName="address" matInput>
+        </mat-form-field>
+    </mat-card-content>
+</mat-card>
+
+<section>
+    
+    <div class="example-button-row">
+      <button mat-raised-button type="submit" color="primary">submit</button>
+    </div>
+</section>
+</form>
